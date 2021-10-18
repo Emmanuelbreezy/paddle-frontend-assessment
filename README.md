@@ -34,6 +34,15 @@ Click on the "PEDDLE TASK" card to see:
 
 ![task1_](https://user-images.githubusercontent.com/35114137/137742726-ccff75fd-9611-4c3e-af7b-f2cff053f80d.PNG)
 
+
 and on the "GITHUB TASK" card to see:
 
 ![task2](https://user-images.githubusercontent.com/35114137/137742876-d04ea600-3322-467e-ae47-8c4516535957.PNG)
+
+
+## Source / Folder Structure
+
+Open the clone repo folder using an editor, and go to the "INDEX.JS" inside the page folder:
+
+
+![sourcecode](https://user-images.githubusercontent.com/35114137/137743405-13731fbb-e06f-46b7-a24b-f5bceca38583.PNG)
