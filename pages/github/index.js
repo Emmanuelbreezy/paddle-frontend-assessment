@@ -8,6 +8,7 @@ import { RepoList } from '../../container/RepoList/RepoList';
 
 export default function Github(props) {
   const [loading,setLoading] = useState(true);
+  const [pageNumber,setPageNumber] = useState(1);
 
   useEffect(() => {
     if(loading){
@@ -31,7 +32,7 @@ console.log(props.result,'[]]')
         {loading ? <GitLoader /> : (
         <>
         <header className="pb-5 mb-4">
-           <nav className="navbar navbar-expand-lg pt-3 z-index pb-3 navbar-light __top--nav fixed-top">
+           <nav className="navbar navbar-expand-lg pt-3 z-index pb-3 navbar-light bg-white __top--nav fixed-top">
             <div className="container">
                 <a className="navbar-brand" href="#">
                     Github
@@ -40,7 +41,7 @@ console.log(props.result,'[]]')
             </nav>
        </header>
         <main className="main pt-4">
-           <RepoList reposData={props.data} />
+           <RepoList reposData={props.data} pageNumber={pageNumber} />
         </main>
         </>)}
         </Layout> 
@@ -49,7 +50,7 @@ console.log(props.result,'[]]')
 }
 
 export async function getServerSideProps(context){
-    const API_URL = 'https://api.github.com/search/repositories?q=created:>2021-08-13&sort=stars&order=desc';
+    const API_URL = 'https://api.github.com/search/repositories?q=created:>2021-08-13&sort=stars&order=desc&page=1';
 
     const res = await fetch(`${API_URL}`,{
         method:"GET"
