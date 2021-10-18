@@ -1,7 +1,7 @@
 # Paddle Frontend Assessment
 ----
 
-The application is built with [Next.js Framework](https://nextjs.org/) and Sass(Boostrap)
+The application is built with [Next.js Framework](https://nextjs.org/) and Sass(Boostrap).. Vercel Platform to deploy the demo of the application 
 
 [Paddle Demo](https://paddle-frontend-assessment.vercel.app/homepage), [Github Repo Demo](https://paddle-frontend-assessment.vercel.app/github)
 
@@ -28,5 +28,12 @@ yarn dev
 ```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+![task1](https://user-images.githubusercontent.com/35114137/137742396-45c839a6-2313-4c36-a867-94ac18bb11ab.PNG)
 
-![fistpage](https://user-images.githubusercontent.com/35114137/137740472-d13a217f-b7eb-4d87-972c-f61678e855c1.PNG)
+Click on the "PEDDLE TASK" card to see:
+
+![task1_](https://user-images.githubusercontent.com/35114137/137742726-ccff75fd-9611-4c3e-af7b-f2cff053f80d.PNG)
+
+and on the "GITHUB TASK" card to see:
+
+![task2](https://user-images.githubusercontent.com/35114137/137742876-d04ea600-3322-467e-ae47-8c4516535957.PNG)
