@@ -16,17 +16,51 @@
           .repo__info{
             //padding-left: 2rem;
             &--top{
+               padding-top: 0.8em;
 
+               @include media-breakpoint-up(md){
+                 padding-top: 0em;
+            }
+    
             }
 
             &--bottom{
-                display: flex;
-                align-items: center;
+                display: block;
+                
+              
+
+                @include media-breakpoint-up(md){
+                    display: flex;
+                    align-items: center;
+               }
+
+               .wrap--span{
+                display: block;
+                margin-top: 0.8em;
+                padding-left: 1rem;
+                margin-bottom: 2rem;
+
+                @include media-breakpoint-up(md){
+                    display: inline-flex;
+                    margin-top: 0em;
+                    padding-left: 0rem;
+                    margin-bottom: 0rem;
+               }
+                
+               }
 
                 .wrap--btn{
+                    display: block;
+                    margin-top: 0.8em;
                     margin-right: 1rem;
                     border: 1px solid #eee;
                     padding: 0.2rem 1.5rem;
+
+                    @include media-breakpoint-up(md){
+                        margin-top: 0em;
+                        display: flex;
+                        align-items: center;
+                   }
                 }
             }
           }

@@ -51,7 +51,7 @@ console.log(props.result,'[]]')
 
 export async function getServerSideProps(context){
    const errors = [];
-   const mapData = [];
+    var mapData = [];
     const API_URL = 'https://api.github.com/search/repositories?q=created:>2021-08-13&sort=stars&order=desc&page=1';
     try{
         const res = await fetch(`${API_URL}`,{
@@ -69,13 +69,12 @@ export async function getServerSideProps(context){
         }));
 
     }catch(err){
-        errors.push(err);
+        console.log(err);
     }
 
     return {
         props:{
-            data:mapData,
-            errors:errors
+            data:mapData
         }
     }
 }

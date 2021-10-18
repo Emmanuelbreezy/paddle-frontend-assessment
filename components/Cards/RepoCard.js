@@ -21,7 +21,7 @@ export function RepoCard(props){
                        <div className="repo__info--bottom">
                            <span className="wrap--btn">Stars: {props.repoStars}k</span>
                            <span className="wrap--btn">Issues: {props.repoIssues}k</span>
-                           <span>
+                           <span className="wrap--span">
                            {time_ago}
                            </span>
                        </div>

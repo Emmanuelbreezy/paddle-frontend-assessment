@@ -11144,7 +11144,7 @@ textarea.form-control-lg {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 70vh;
 }
 
 .display-5 {
@@ -11724,14 +11724,50 @@ textarea.form-control-lg {
   width: 140px;
   height: auto;
 }
+.card .card-body .card__single .repo__info--top {
+  padding-top: 0.8em;
+}
+@media (min-width: 768px) {
+  .card .card-body .card__single .repo__info--top {
+    padding-top: 0em;
+  }
+}
 .card .card-body .card__single .repo__info--bottom {
-  display: flex;
-  align-items: center;
+  display: block;
+}
+@media (min-width: 768px) {
+  .card .card-body .card__single .repo__info--bottom {
+    display: flex;
+    align-items: center;
+  }
+}
+.card .card-body .card__single .repo__info--bottom .wrap--span {
+  display: block;
+  margin-top: 0.8em;
+  padding-left: 1rem;
+  margin-bottom: 2rem;
+}
+@media (min-width: 768px) {
+  .card .card-body .card__single .repo__info--bottom .wrap--span {
+    display: inline-flex;
+    margin-top: 0em;
+    padding-left: 0rem;
+    margin-bottom: 0rem;
+  }
 }
 .card .card-body .card__single .repo__info--bottom .wrap--btn {
+  display: block;
+  margin-top: 0.8em;
   margin-right: 1rem;
   border: 1px solid #eee;
   padding: 0.2rem 1.5rem;
+}
+@media (min-width: 768px) {
+  .card .card-body .card__single .repo__info--bottom .wrap--btn {
+    margin-top: 0em;
+    display: flex;
+    align-items: center;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
