@@ -19,7 +19,7 @@ export default function Home() {
               <h5>Task 1</h5>
                 <div className="card ">
                   <div className="card-body">
-                  <h5 className="card-title">Pebble Task</h5>
+                  <h5 className="card-title">Peddle Task</h5>
                     <p className="card-text">Reproduce the landing page as instructed</p>
                      <Link href="/homepage">
                         <a className="btn btn-primary">Preview</a>
