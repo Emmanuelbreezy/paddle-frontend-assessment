@@ -32,7 +32,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 Click on the "PEDDLE TASK" card to see:
 
-![task1_](https://user-images.githubusercontent.com/35114137/137742726-ccff75fd-9611-4c3e-af7b-f2cff053f80d.PNG)
+![task1_](https://user-images.githubusercontent.com/35114137/137742726-ccff75fd-9611-4c3e-af7b-f2cff053f80d.PNG
+
 
 
 and on the "GITHUB TASK" card to see:
@@ -44,5 +45,11 @@ and on the "GITHUB TASK" card to see:
 
 Open the clone repo folder using an editor, and go to the "INDEX.JS" inside the page folder:
 
-
 ![sourcecode](https://user-images.githubusercontent.com/35114137/137743405-13731fbb-e06f-46b7-a24b-f5bceca38583.PNG)
+
+To Edit the PEDDLE Task Code go to the 'homepage' folder in the page directory:
+
+
+
+To Edit the GITHUB Task CODE go to the 'github' folder in the page  directory:
+
