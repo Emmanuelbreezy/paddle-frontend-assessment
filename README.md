@@ -3,7 +3,7 @@
 
 The application is built with [Next.js Framework](https://nextjs.org/) and Sass(Boostrap).. Vercel Platform to deploy the demo of the application 
 
-[Paddle Demo](https://paddle-frontend-assessment.vercel.app/homepage), [Github Repo Demo](https://paddle-frontend-assessment.vercel.app/github)
+Quick Demo - [Paddle Demo](https://paddle-frontend-assessment.vercel.app/homepage), [Github Repo Demo](https://paddle-frontend-assessment.vercel.app/github)
 
 ## Libraries used
 
