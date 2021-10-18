@@ -35,8 +35,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 Click on the "PEDDLE TASK" card to see:
 
-![task1_](https://user-images.githubusercontent.com/35114137/137742726-ccff75fd-9611-4c3e-af7b-f2cff053f80d.PNG
-
+![task1_](https://user-images.githubusercontent.com/35114137/137745486-fe8a8a69-4566-4880-969d-a1776ea1bb54.PNG)
 
 
 and on the "GITHUB TASK" card to see:
