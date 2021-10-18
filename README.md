@@ -1,5 +1,5 @@
 # Paddle Frontend Assessment
-----
+
 
 The application is built with [Next.js Framework](https://nextjs.org/) and Sass(Boostrap).. Vercel Platform to deploy the demo of the application 
 
@@ -49,9 +49,9 @@ Open the clone repo folder using an editor, and go to the "INDEX.JS" inside the 
 
 ##
 
-To Edit the PEDDLE Task Code go to the 'homepage' folder in the page directory:
+To Edit the PEDDLE Task Code go to the 'homepage' folder in the page directory
 
 
 
-To Edit the GITHUB Task CODE go to the 'github' folder in the page  directory:
+To Edit the GITHUB Task CODE go to the 'github' folder in the page  directory
 
