@@ -11,16 +11,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-          <div className="container-fluid" >
-            <div className="row w-25 bg-danger" style={{position:"absolute", left:"30%",top:"30%"}}>
-              <div className="col-md-8">
-                <div className="card">
+          <div className="container" style={{width:"100%",height:"100vh"}}>
+            <div className="row __center__div  bg-danger">
+              <div className="col-md-4">
+                <div className="card ">
                   <div className="card-body">
                        Pebble Demo
                   </div>
                 </div>
               </div>
-              <div className="col-md-8">
+              <div className="col-md-4">
                 <div className="card">
                     <div className="card-body">
                         Github Demo

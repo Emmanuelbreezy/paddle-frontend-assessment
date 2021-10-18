@@ -35,7 +35,7 @@ console.log(props.result,'[]]')
            <nav className="navbar navbar-expand-lg pt-3 z-index pb-3 navbar-light bg-white __top--nav fixed-top">
             <div className="container">
                 <a className="navbar-brand" href="#">
-                    Github
+                    Github Repos
                 </a>
              </div> 
             </nav>
@@ -50,25 +50,32 @@ console.log(props.result,'[]]')
 }
 
 export async function getServerSideProps(context){
+   const errors = [];
+   const mapData = [];
     const API_URL = 'https://api.github.com/search/repositories?q=created:>2021-08-13&sort=stars&order=desc&page=1';
+    try{
+        const res = await fetch(`${API_URL}`,{
+            method:"GET"
+        });
+        const data = await res.json();
+        mapData = data.items.map((item,) => ({
+                id: item.id,
+                repo_name: item.name,
+                repo_desc: item.description,
+                repo_no_stars: item.stargazers_count,
+                repo_no_issues: item.open_issues,
+                repo_created_at: item.created_at,
+                owner_avatar_url: item.owner.avatar_url,
+        }));
 
-    const res = await fetch(`${API_URL}`,{
-        method:"GET"
-    });
-    const data = await res.json();
-    const mapData = data.items.map((item,) => ({
-            id: item.id,
-            repo_name: item.name,
-            repo_desc: item.description,
-            repo_no_stars: item.stargazers_count,
-            repo_no_issues: item.open_issues,
-            repo_created_at: item.created_at,
-            owner_avatar_url: item.owner.avatar_url,
-    }));
+    }catch(err){
+        errors.push(err);
+    }
 
     return {
         props:{
-            data:mapData
+            data:mapData,
+            errors:errors
         }
     }
 }

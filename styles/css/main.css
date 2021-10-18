@@ -11140,6 +11140,13 @@ textarea.form-control-lg {
   letter-spacing: 5px;
 }
 
+.__center__div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
 .display-5 {
   font-weight: 600;
   line-height: 3.8rem;
