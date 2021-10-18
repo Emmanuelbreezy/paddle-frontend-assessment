@@ -1,0 +1,11 @@
+@use '../vendors/bootstrap' as *;
+@use '../themes/app-theme' as *;
+
+.main--contain{
+    padding-top: 0;
+    margin:0;
+
+    @include media-breakpoint-up(md){
+        padding-top: 1rem;
+    }
+}

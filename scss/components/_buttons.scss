@@ -1,0 +1,32 @@
+@use '../vendors/bootstrap' as *;
+@use '../themes/app-theme'  as *; 
+
+//DEFAULT BUTTON
+.btn--custom{
+    padding-left: 3.0rem;
+    padding-right: 3.0rem;
+    font-weight: bold;
+
+}
+
+
+//BLOCK BUTTON
+.blockbtn--custom{
+    @extend .btn--custom;
+    @extend .shadow;
+    background-color: var(--primary-color);
+    color: $white;
+
+}
+
+//OUTLINE BUTTON
+.outlinebtn--custom{
+    @extend .btn--custom;
+    border:2px solid  var(--primary-color);
+    color: var(--primary-color);
+    
+
+    &:hover{
+        color: var(--primary-color);
+    }
+}

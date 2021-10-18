@@ -1,0 +1,87 @@
+@use '../../vendors/bootstrap' as *;
+@use '../../themes/app-theme' as *;
+
+
+
+.pricing--section{
+    padding: 3rem 0;
+    background-color: var(--section-sub-bg-color);
+    margin: 0 auto;
+
+
+    ._plans--row{
+        margin-top: 2rem;
+        padding-top: 3rem;
+
+       
+
+        
+        
+        .__plan--active{
+            border: 2px solid var(--primary-color)!important;
+        }
+
+        ._plan__prem{
+            @include media-breakpoint-up(md){
+                margin: 0 auto;
+                vertical-align: middle;
+                padding-top: 1.5rem;
+            }
+            @include media-breakpoint-up(lg){
+                margin: 0;
+                padding-top: 0;
+            }
+        }
+
+        .__plans--column{
+            background-color: var(--default-color);
+            border: 2px solid #ddd;
+            height: 760px;
+            border-radius: 10px;
+            box-sizing: border-box;
+
+            .__first--wrap{
+                padding: 5rem 0 8rem 0;
+
+                img{
+                    width: 207px;
+                    height: auto;
+                }
+
+                .__wrap--list{
+                    list-style: none;
+                    width: 65%;
+                    margin:0 auto;
+
+                    li{
+
+                        .__wrap--text{
+                           padding-left: 1.5rem;
+                           line-height: 40px;
+                        }
+                    }
+                }
+            }
+
+            .bottom--wrap{
+
+
+                .display-h3{
+                     font-size: 28px;
+                     margin-bottom: 0;
+                     padding-bottom: 0;
+                     font-weight: bold;
+                     color: var(--text-header-color);
+                     line-height: 4rem;
+                }
+
+                ._plans-sub-text{
+                    font-size: 20px!important;
+                    font-weight: 400;
+                    padding-left: 0.3rem;
+                    color: var(--text-color);
+                }
+            }
+        }
+    }
+}

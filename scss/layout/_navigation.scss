@@ -1,0 +1,75 @@
+@use '../vendors/bootstrap' as *;
+@use '../themes/app-theme'  as *;
+
+
+.nav--header{
+    margin-top: 5rem;
+    margin-bottom: 0rem;
+
+    @include media-breakpoint-up(md){
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+    }
+}
+
+.menu--bar{
+    background-color:#fff;
+    z-index: 1;
+
+    &--collapse{
+        width: 100%;
+        display: block;
+        padding-top: 0.85em;
+      
+       @include media-breakpoint-up(lg){
+            width: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 0em;
+        }
+
+       .navbar-list{
+
+         li{
+             padding-left: 0;
+
+             @include media-breakpoint-up(lg){
+                padding-left: 1.885rem;
+             }
+
+             .nav-b{
+                 width: 100%;
+                 text-align: center;
+                 font-weight: 400;
+                 font-size: 16px;
+                 color: var(--text-color);
+
+                 @include media-breakpoint-up(lg){
+                    width: auto;
+                 }
+             }
+
+            
+         }
+       }
+
+       .navbar-auth{
+           
+            .nav-a{
+                width: 100%;
+                text-align: center;
+                font-weight: bold;
+                font-size: 16px;
+                color: var(--text-header-color);
+                margin-right: 0.6rem;
+
+                @include media-breakpoint-up(lg){
+                    width: auto;
+                    
+                }
+
+            }
+       }
+    }
+}

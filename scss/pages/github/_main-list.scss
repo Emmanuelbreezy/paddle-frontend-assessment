@@ -1,0 +1,36 @@
+@use '../../vendors/bootstrap' as *;
+
+.card{
+    .card-body{
+        padding: 1rem 1.5rem;
+        
+        .card__single{
+          align-items: flex-start;
+          padding: 0;
+
+          .image__container{
+              background-color: #eee;
+              width: 140px;
+              height: auto;
+          }
+          .repo__info{
+            //padding-left: 2rem;
+            &--top{
+
+            }
+
+            &--bottom{
+                display: flex;
+                align-items: center;
+
+                .wrap--btn{
+                    margin-right: 1rem;
+                    border: 1px solid #eee;
+                    padding: 0.2rem 1.5rem;
+                }
+            }
+          }
+        }
+    }
+
+}
