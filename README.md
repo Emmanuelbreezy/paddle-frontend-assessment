@@ -17,4 +17,10 @@ First, clone the repository:
 
 `git clone https://github.com/Emmanuelbreezy/paddle-frontend-assessment.git
 `
+run the development server:
 
+```bash
+npm run dev
+# or
+yarn dev
+```
