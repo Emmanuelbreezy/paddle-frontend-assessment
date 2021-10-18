@@ -15,8 +15,9 @@ The application is built with [Next.js Framework](https://nextjs.org/) and Sass(
 
 First, clone the repository:
 
-`git clone https://github.com/Emmanuelbreezy/paddle-frontend-assessment.git
-`
+```bash
+  git clone https://github.com/Emmanuelbreezy/paddle-frontend-assessment.git
+```
 run the development server:
 
 ```bash
@@ -24,3 +25,6 @@ npm run dev
 # or
 yarn dev
 ```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+
