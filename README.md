@@ -1,3 +1,6 @@
+
+![logo](https://user-images.githubusercontent.com/35114137/137744878-993dea6d-7b6f-417a-a9d9-3113df1551ed.png)
+
 # Paddle Frontend Assessment
 
 
@@ -54,4 +57,5 @@ To Edit the PEDDLE Task Code go to the 'homepage' folder in the page directory
 
 
 To Edit the GITHUB Task CODE go to the 'github' folder in the page  directory
+
 
